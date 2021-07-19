@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+::-moz-placeholder {
+  font-style: italic;
+}
+
+:-moz-placeholder {
+  font-style: italic;
+}
+
+:-ms-input-placeholder {
+  font-style: italic;
+}
+
+body {
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0 0 0;
+  align-items: center;
+}
+
+.todo-app {
+  border: 1px solid grey;
+  box-shadow: 1px 1px 1px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.item-style {
+  border: 1px solid grey;
+  padding: 15px;
+}
+
+.title {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.add-list {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+.clear-btn {
+  padding: 15px;
+  color: rgb(94, 88, 88);
+}
+
+.container {
+  list-style: none;
+}
+
+/* .container p {
+  width: 100%;
+} */
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-input {
+  display: flex;
+}
+
+.add-btn {
+  background: rgb(150, 255, 255);
+  padding: 1px 4px;
+}
+
+.desc-cont {
+  display: flex;
+  align-items: baseline;
+}
+
+.task-desc {
+  padding-left: 15px;
+}
+
+.move-handle:hover {
+  cursor: move;
+  display: flex;
+}
+
+.delete {
+  display: none;
+}
+
+.list-style {
+  background: bisque;
+}
+
+.hint {
+  background: aqua;
+}
+
+.nothint {
+  background: orange;
+}
+
+.active {
+  background: green;
+}
+
+.done {
+  text-decoration: line-through;
+  color: rgb(107, 102, 102);
+}
